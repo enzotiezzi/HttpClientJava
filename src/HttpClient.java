@@ -120,5 +120,6 @@ public class HttpClient
 		bWriter.write(json);
 		bWriter.flush();
 		bWriter.close();
+		stream.close();
 	}
 }
